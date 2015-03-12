@@ -62,7 +62,7 @@ $lightGrey: rgb(250,250,250);
 
   padding: 1em 1.675em;
 
-  &.sstt__active {
+  &:first-child {
     display: block;
   }
 }

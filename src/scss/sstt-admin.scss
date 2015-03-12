@@ -12,15 +12,15 @@ By Craig Fox @ craigwfox.com
 https://github.com/craigwfox/Simple-Starter-Theme.git
 ********************************************************************* */
 
-  .sstb-admin {}
-    .sstb-admin__title {
+  .sstt-admin {}
+    .sstt-admin__title {
       margin-bottom: 0;
     }
-    .sstb-admin__subtitle {
+    .sstt-admin__subtitle {
       margin-bottom: .5em;
     }
 
-    .sstb-admin__instructions {
+    .sstt-admin__instruction__wrapper {
       padding: 0 0 1em;
 
       h3 {
@@ -28,11 +28,15 @@ https://github.com/craigwfox/Simple-Starter-Theme.git
       }
       p {
         margin-top: 0;
+        margin-bottom: 0;
       }
     }
+      .sstt-admin__instruction {
+        padding-bottom: 1.475em;
+      }
     
-    .sstb-admin__example {}
-      .sstb-admin__code-block {
+    .sstt-admin__example {}
+      .sstt-admin__code-block {
         width: 90%;
         max-width: 700px;
 
@@ -47,7 +51,7 @@ https://github.com/craigwfox/Simple-Starter-Theme.git
         color: #999;
         font-size: 1.075em;
       }
-        .sstb-admin__scode {
+        .sstt-admin__scode {
           font-weight: 400;
           color: #333;
         }
